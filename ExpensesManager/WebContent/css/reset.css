@@ -1,0 +1,71 @@
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+u, ul, 
+var{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; }
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+ 
+img {
+	vertical-align:top; 
+}
+embed { 
+	vertical-align:top;
+}
+* { border:none}
+
+#nav_red{ padding:47px 0 0 0;}
+#nav_red ul{ list-style:none; }
+#nav_red li{float:left; padding: 26px 39px 23px 10px;
+float: left;
+background: url(../images/menu_line.gif) right 0 no-repeat;}
+#nav_red li.current{ padding:5px; margin:0; background:url(images/home.PNG) 0.5em 0.2em no-repeat; width:30px; height:20px;float:left;}
+#nav_red li a{display:block;text-align:center;text-decoration:none;color: #FFFFFF;line-height:32px;margin:0px 0 0 0;padding:0px 0px;display: inline-block;
+overflow: hidden;color: #191919;font-size: 21px;
+color: #191919;
+line-height: 1.2em;
+text-decoration: none;
+letter-spacing: -1px;}
+#nav_red li a:hover{color:#f86900;}
+#nav_red li.active a{color:#FFFFFF;}
+/* Navigation Second Level */
+#nav_red li ul{position:absolute;display:none;height:auto; margin:25px 0 0 0; padding:0;z-index:9999999999999; background-color: #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-moz-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+-webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.25); border:solid 5px #2e2e2e; border-top:none;
+}
+#nav_red li:hover ul{display:block;}
+#nav_red li li:hover { padding:0; margin:0;}
+#nav_red li li {display:block;float:none;width:210px;padding:0; margin:0; font: normal 11px Verdana, Lucida Sans Unicode, Lucida Grande, sans-serif;}
+#nav_red li ul a{ line-height:10px;text-align:left;display:block;height:18px;padding:15px 0px 0px 10px;margin:0
+;border-bottom:solid 1px #3b3b3b; background:#FFF; color:#000; font-size:12px; }
+#nav_red li ul a:hover{color:#f86900; }
